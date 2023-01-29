@@ -1,0 +1,16 @@
+[31;22m[ERROR] [39;1msnarkJS[0m: Error: ENOENT: no such file or directory, open 'public.json'
+    at Object.openSync (node:fs:584:3)
+    at Object.readFileSync (node:fs:452:35)
+    at Object.zkeyExportSolidityCalldata [as action] (/Users/neha/.nvm/versions/node/v19.4.0/lib/node_modules/snarkjs/build/cli.cjs:8595:51)
+    at clProcessor (/Users/neha/.nvm/versions/node/v19.4.0/lib/node_modules/snarkjs/build/cli.cjs:456:37)
+    at Object.<anonymous> (/Users/neha/.nvm/versions/node/v19.4.0/lib/node_modules/snarkjs/build/cli.cjs:8291:1)
+    at Module._compile (node:internal/modules/cjs/loader:1239:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1293:10)
+    at Module.load (node:internal/modules/cjs/loader:1096:32)
+    at Module._load (node:internal/modules/cjs/loader:935:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:84:12) {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: 'public.json'
+}
