@@ -1,26 +1,24 @@
 #!/bin/bash
 
+echo "Running basic setup................."
+npm install --save-dev shelljs
+
+# install yq
+# wget https://github.com/mikefarah/yq/releases/latest/download/yq_linux_amd64 -O /usr/bin/yq &&\
+#     chmod +x /usr/bin/yq
+
+# install node
+
+# install npm
+
+
 # install rust
-curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+# curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 
-# install wget for mac
-brew install wget
+# install golang
+# TBD
 
-# clone circom and move to the folder
-git clone https://github.com/iden3/circom.git
-cd circom
 
-# build the compiler.
-cargo build --release
-
-# install cargo in path.
-cargo install --path circom
-
-# see if circom is working
-circom --help
-
-# remove the circom folder
-rm -rf circom
 
 
 

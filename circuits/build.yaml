@@ -1,0 +1,16 @@
+app: 'ZeFi'
+role: 'admin'
+gitrepo: 'git@github.com:zk-devpod/circom-starterkit.git'
+build:
+  - circom
+  # - gnark
+  # - halo2
+  # - risc0
+base_dir: '/some/path/to/circuit_folder' # need to work with user to set up a standard.
+constraint_size: "large" # default is large for now.
+output_dir: '' # leave empty for default behaviour.
+ptau: '' # fill in if you have ptau file available.
+
+
+
+
